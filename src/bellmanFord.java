@@ -16,6 +16,7 @@ public class bellmanFord {
         bellmanAlgo(v, edges, source);
         in.close();
     }
+
     static void bellmanAlgo(int v, int[][] edges, int source) {
         int[] distance = new int[v];
         Arrays.fill(distance, (int) 1e8);

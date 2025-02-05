@@ -28,6 +28,7 @@ public class UndirectedClass {
             }
         }
     }
+
     public static void main(String[] args) {
         List<List<Integer>> outer =new ArrayList<>();
         int v=5;

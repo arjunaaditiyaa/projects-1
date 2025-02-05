@@ -13,6 +13,7 @@ public class directedGraph {
             System.out.println(" ");
         }
     }
+
     static void remove(List<List<Integer>>outer,int u, int v) {
         for (int i = 0; i < outer.size(); i++) {
             if (outer.get(u).get(i) == v) {

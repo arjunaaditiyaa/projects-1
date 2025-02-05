@@ -7,7 +7,6 @@ class Edge {
         this.y = y;
     }
 }
-
 public class Dijikistra {
     static void digialgo(List<List<Edge>> outer, int start, int totalNodes) {
         int[] dist = new int[totalNodes];
